@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename="/paradise-nursery-plants">
         <div className="min-h-screen bg-gray-50">
           <Navbar />
           <main>
